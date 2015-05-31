@@ -1,0 +1,93 @@
+Command-line parameters used:
+                 Parameter              |            Value           
+   -------------------------------------|----------------------------
+       pi_pi_interacting_dist_cutoff    |             7.5            
+           cation_pi_dist_cutoff        |             6.0            
+                   ligand               |        lig00011.pdbqt      
+        close_contacts_dist1_cutoff     |             2.5            
+    active_site_flexibility_dist_cutoff |             4.0            
+                output_file             |    binana_0001/output.pdb  
+              pi_padding_dist           |             0.75           
+          hydrophobic_dist_cutoff       |             4.0            
+       T_stacking_closest_dist_cutoff   |             5.0            
+         T_stacking_angle_tolerance     |             30.0           
+        close_contacts_dist2_cutoff     |             4.0            
+                  receptor              | ../receptors/wt-ensemble/cluster-0001.pdbqt
+                 output_dir             |         binana_0001/       
+        pi_stacking_angle_tolerance     |             30.0           
+         hydrogen_bond_angle_cutoff     |             40.0           
+         hydrogen_bond_dist_cutoff      |             4.0            
+          salt_bridge_dist_cutoff       |             5.5            
+         electrostatic_dist_cutoff      |             4.0            
+
+Atom-type pair counts within 2.5 angstroms:
+    Atom Type | Atom Type | Count
+   -----------|-----------|-------
+        HD    |     OA    |   1   
+
+Atom-type pair counts within 4.0 angstroms:
+    Atom Type | Atom Type | Count
+   -----------|-----------|-------
+        C     |     C     |   10  
+        C     |     OA    |   13  
+        HD    |     OA    |   4   
+        C     |     N     |   4   
+        A     |     C     |   2   
+        OA    |     OA    |   3   
+        HD    |     HD    |   1   
+        C     |     HD    |   8   
+        N     |     OA    |   3   
+
+Ligand atom types:
+    Atom Type 
+   -----------
+        C     
+        HD    
+        OA    
+        N     
+
+Summed electrostatic energy by atom-type pair, in J/mol:
+    Atom Type | Atom Type | Energy (J/mol)
+   -----------|-----------|----------------
+        C     |     C     |  30378.5394824 
+        C     |     OA    | -157097.641449 
+        HD    |     OA    | -94495.7425555 
+        C     |     N     | -58006.2083033 
+        A     |     C     |  79.1050516575 
+        OA    |     OA    |  92208.325864  
+        HD    |     HD    |  9562.79997118 
+        C     |     HD    |  42940.3186075 
+        N     |     OA    |  106059.650334 
+
+Number of rotatable bonds in the ligand: 7
+
+Active-site flexibility:
+    Sidechain/Backbone | Secondary Structure | Count 
+   --------------------|---------------------|-------
+         SIDECHAIN     |        OTHER        |   29  
+         BACKBONE      |        OTHER        |   20  
+
+Hydrogen bonds:
+    Location of Donor | Sidechain/Backbone | Secondary Structure | Count 
+   -------------------|--------------------|---------------------|-------
+
+Hydrophobic contacts (C-C):
+    Sidechain/Backbone | Secondary Structure | Count 
+   --------------------|---------------------|-------
+         SIDECHAIN     |        OTHER        |   12  
+
+pi-pi stacking interactions:
+    Secondary Structure | Count 
+   ---------------------|-------
+
+T-stacking (face-to-edge) interactions:
+    Secondary Structure | Count 
+   ---------------------|-------
+
+Cation-pi interactions:
+    Which residue is charged? | Secondary Structure | Count 
+   ---------------------------|---------------------|-------
+
+Salt Bridges:
+    Secondary Structure | Count 
+   ---------------------|-------

@@ -1,0 +1,486 @@
+MODEL 1
+REMARK VINA RESULT:      -5.2      0.000      0.000
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  O_6 
+REMARK    3  A    between atoms: C_3  and  C_4 
+REMARK    4  A    between atoms: C_7  and  O_6 
+REMARK    5  A    between atoms: C_9  and  C_10 
+REMARK    6  A    between atoms: N_15  and  C_14 
+REMARK    7  A    between atoms: N_20  and  C_19 
+REMARK       I    between atoms: C_22  and  N_20 
+ROOT
+ATOM      1  C   LIG d   1      -5.200  92.488 118.069  0.00  0.00     0.161 C 
+ATOM      2  C   LIG d   1      -5.598  91.601 117.054  0.00  0.00     0.016 C 
+ATOM      3  C   LIG d   1      -6.477  91.961 116.007  0.00  0.00     0.038 C 
+ATOM      4  C   LIG d   1      -6.902  93.284 115.818  0.00  0.00     0.028 C 
+ATOM      5  C   LIG d   1      -6.932  94.101 117.105  0.00  0.00    -0.047 C 
+ATOM      6  C   LIG d   1      -5.566  93.965 117.816  0.00  0.00     0.091 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O   LIG d   1      -3.785  92.355 118.306  0.00  0.00    -0.368 OA
+BRANCH   7   8
+ATOM      8  C   LIG d   1      -3.404  91.640 119.508  0.00  0.00     0.119 C 
+BRANCH   8   9
+ATOM      9  C   LIG d   1      -2.715  92.648 120.448  0.00  0.00     0.028 C 
+ATOM     10  C   LIG d   1      -1.675  93.514 119.718  0.00  0.00     0.006 C 
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   LIG d   1      -2.346  90.574 119.210  0.00  0.00     0.028 C 
+ATOM     12  C   LIG d   1      -2.842  89.500 118.228  0.00  0.00     0.006 C 
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  N   LIG d   1      -5.537  94.666 119.127  0.00  0.00    -0.311 N 
+ATOM     14  C   LIG d   1      -4.692  95.655 119.411  0.00  0.00     0.210 C 
+ATOM     15  C   LIG d   1      -4.817  96.225 120.827  0.00  0.00     0.109 C 
+ATOM     16  O   LIG d   1      -3.872  96.136 118.614  0.00  0.00    -0.276 OA
+ATOM     17  H   LIG d   1      -6.190  94.360 119.822  0.00  0.00     0.149 HD
+ENDBRANCH   6  13
+BRANCH   5  18
+ATOM     18  N   LIG d   1      -7.259  95.493 116.743  0.00  0.00     0.381 N 
+ATOM     19  H   LIG d   1      -6.798  96.123 117.368  0.00  0.00    -0.090 HD
+ATOM     20  H   LIG d   1      -8.251  95.628 116.833  0.00  0.00    -0.090 HD
+ATOM     21  H   LIG d   1      -6.975  95.677 115.805  0.00  0.00    -0.090 HD
+ENDBRANCH   5  18
+BRANCH   3  22
+ATOM     22  C   LIG d   1      -6.972  90.982 115.158  0.00  0.00     0.382 C 
+ATOM     23  O   LIG d   1      -6.400  89.868 115.086  0.00  0.00    -0.241 OA
+ATOM     24  O   LIG d   1      -7.956  91.216 114.431  0.00  0.00    -0.241 OA
+ENDBRANCH   3  22
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.2      1.083      2.006
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  O_6 
+REMARK    3  A    between atoms: C_3  and  C_4 
+REMARK    4  A    between atoms: C_7  and  O_6 
+REMARK    5  A    between atoms: C_9  and  C_10 
+REMARK    6  A    between atoms: N_15  and  C_14 
+REMARK    7  A    between atoms: N_20  and  C_19 
+REMARK       I    between atoms: C_22  and  N_20 
+ROOT
+ATOM      1  C   LIG d   1      -6.280  92.224 118.589  0.00  0.00     0.161 C 
+ATOM      2  C   LIG d   1      -6.362  91.377 117.471  0.00  0.00     0.016 C 
+ATOM      3  C   LIG d   1      -6.734  91.823 116.182  0.00  0.00     0.038 C 
+ATOM      4  C   LIG d   1      -6.905  93.184 115.890  0.00  0.00     0.028 C 
+ATOM      5  C   LIG d   1      -7.326  94.015 117.097  0.00  0.00    -0.047 C 
+ATOM      6  C   LIG d   1      -6.355  93.730 118.265  0.00  0.00     0.091 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O   LIG d   1      -5.083  91.931 119.337  0.00  0.00    -0.368 OA
+BRANCH   7   8
+ATOM      8  C   LIG d   1      -3.938  91.495 118.563  0.00  0.00     0.119 C 
+BRANCH   8   9
+ATOM      9  C   LIG d   1      -3.335  90.271 119.278  0.00  0.00     0.028 C 
+ATOM     10  C   LIG d   1      -2.809  89.215 118.291  0.00  0.00     0.006 C 
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   LIG d   1      -2.830  92.552 118.565  0.00  0.00     0.028 C 
+ATOM     12  C   LIG d   1      -2.948  93.537 119.739  0.00  0.00     0.006 C 
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  N   LIG d   1      -6.744  94.439 119.512  0.00  0.00    -0.311 N 
+ATOM     14  C   LIG d   1      -6.260  95.631 119.860  0.00  0.00     0.210 C 
+ATOM     15  C   LIG d   1      -6.778  96.174 121.195  0.00  0.00     0.109 C 
+ATOM     16  O   LIG d   1      -5.476  96.303 119.174  0.00  0.00    -0.276 OA
+ATOM     17  H   LIG d   1      -7.400  93.979 120.112  0.00  0.00     0.149 HD
+ENDBRANCH   6  13
+BRANCH   5  18
+ATOM     18  N   LIG d   1      -7.334  95.431 116.683  0.00  0.00     0.381 N 
+ATOM     19  H   LIG d   1      -8.048  95.579 115.998  0.00  0.00    -0.090 HD
+ATOM     20  H   LIG d   1      -6.446  95.652 116.267  0.00  0.00    -0.090 HD
+ATOM     21  H   LIG d   1      -7.494  96.016 117.473  0.00  0.00    -0.090 HD
+ENDBRANCH   5  18
+BRANCH   3  22
+ATOM     22  C   LIG d   1      -6.979  90.897 115.179  0.00  0.00     0.382 C 
+ATOM     23  O   LIG d   1      -7.976  91.034 114.430  0.00  0.00    -0.241 OA
+ATOM     24  O   LIG d   1      -6.240  89.904 115.041  0.00  0.00    -0.241 OA
+ENDBRANCH   3  22
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.1      1.313      2.012
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  O_6 
+REMARK    3  A    between atoms: C_3  and  C_4 
+REMARK    4  A    between atoms: C_7  and  O_6 
+REMARK    5  A    between atoms: C_9  and  C_10 
+REMARK    6  A    between atoms: N_15  and  C_14 
+REMARK    7  A    between atoms: N_20  and  C_19 
+REMARK       I    between atoms: C_22  and  N_20 
+ROOT
+ATOM      1  C   LIG d   1      -6.031  92.107 118.747  0.00  0.00     0.161 C 
+ATOM      2  C   LIG d   1      -6.067  91.067 117.804  0.00  0.00     0.016 C 
+ATOM      3  C   LIG d   1      -6.568  91.223 116.491  0.00  0.00     0.038 C 
+ATOM      4  C   LIG d   1      -6.930  92.478 115.980  0.00  0.00     0.028 C 
+ATOM      5  C   LIG d   1      -7.385  93.461 117.054  0.00  0.00    -0.047 C 
+ATOM      6  C   LIG d   1      -6.319  93.510 118.173  0.00  0.00     0.091 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O   LIG d   1      -4.766  92.098 119.437  0.00  0.00    -0.368 OA
+BRANCH   7   8
+ATOM      8  C   LIG d   1      -3.627  92.587 118.686  0.00  0.00     0.119 C 
+BRANCH   8   9
+ATOM      9  C   LIG d   1      -2.565  91.471 118.677  0.00  0.00     0.028 C 
+ATOM     10  C   LIG d   1      -2.889  90.344 119.672  0.00  0.00     0.006 C 
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   LIG d   1      -2.963  93.774 119.392  0.00  0.00     0.028 C 
+ATOM     12  C   LIG d   1      -3.385  93.904 120.864  0.00  0.00     0.006 C 
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  N   LIG d   1      -6.725  94.385 119.304  0.00  0.00    -0.311 N 
+ATOM     14  C   LIG d   1      -6.338  95.653 119.426  0.00  0.00     0.210 C 
+ATOM     15  C   LIG d   1      -6.854  96.369 120.678  0.00  0.00     0.109 C 
+ATOM     16  O   LIG d   1      -5.642  96.263 118.599  0.00  0.00    -0.276 OA
+ATOM     17  H   LIG d   1      -7.315  93.980 120.004  0.00  0.00     0.149 HD
+ENDBRANCH   6  13
+BRANCH   5  18
+ATOM     18  N   LIG d   1      -7.599  94.766 116.402  0.00  0.00     0.381 N 
+ATOM     19  H   LIG d   1      -8.494  94.778 115.954  0.00  0.00    -0.090 HD
+ATOM     20  H   LIG d   1      -6.893  94.898 115.699  0.00  0.00    -0.090 HD
+ATOM     21  H   LIG d   1      -7.548  95.497 117.076  0.00  0.00    -0.090 HD
+ENDBRANCH   5  18
+BRANCH   3  22
+ATOM     22  C   LIG d   1      -6.747  90.108 115.687  0.00  0.00     0.382 C 
+ATOM     23  O   LIG d   1      -5.825  89.729 114.925  0.00  0.00    -0.241 OA
+ATOM     24  O   LIG d   1      -7.836  89.503 115.680  0.00  0.00    -0.241 OA
+ENDBRANCH   3  22
+TORSDOF 7
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -4.9      2.107      4.252
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  O_6 
+REMARK    3  A    between atoms: C_3  and  C_4 
+REMARK    4  A    between atoms: C_7  and  O_6 
+REMARK    5  A    between atoms: C_9  and  C_10 
+REMARK    6  A    between atoms: N_15  and  C_14 
+REMARK    7  A    between atoms: N_20  and  C_19 
+REMARK       I    between atoms: C_22  and  N_20 
+ROOT
+ATOM      1  C   LIG d   1      -5.201  93.606 117.408  0.00  0.00     0.161 C 
+ATOM      2  C   LIG d   1      -6.132  92.856 116.671  0.00  0.00     0.016 C 
+ATOM      3  C   LIG d   1      -6.300  91.460 116.821  0.00  0.00     0.038 C 
+ATOM      4  C   LIG d   1      -5.649  90.739 117.833  0.00  0.00     0.028 C 
+ATOM      5  C   LIG d   1      -4.327  91.364 118.267  0.00  0.00    -0.047 C 
+ATOM      6  C   LIG d   1      -4.561  92.856 118.595  0.00  0.00     0.091 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O   LIG d   1      -5.810  94.832 117.860  0.00  0.00    -0.368 OA
+BRANCH   7   8
+ATOM      8  C   LIG d   1      -7.255  94.896 117.771  0.00  0.00     0.119 C 
+BRANCH   8   9
+ATOM      9  C   LIG d   1      -7.629  96.328 117.340  0.00  0.00     0.028 C 
+ATOM     10  C   LIG d   1      -6.837  97.398 118.109  0.00  0.00     0.006 C 
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   LIG d   1      -7.907  94.703 119.144  0.00  0.00     0.028 C 
+ATOM     12  C   LIG d   1      -8.770  93.434 119.220  0.00  0.00     0.006 C 
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  N   LIG d   1      -3.302  93.563 118.948  0.00  0.00    -0.311 N 
+ATOM     14  C   LIG d   1      -2.870  93.711 120.199  0.00  0.00     0.210 C 
+ATOM     15  C   LIG d   1      -1.559  94.490 120.342  0.00  0.00     0.109 C 
+ATOM     16  O   LIG d   1      -3.432  93.244 121.201  0.00  0.00    -0.276 OA
+ATOM     17  H   LIG d   1      -2.768  93.947 118.193  0.00  0.00     0.149 HD
+ENDBRANCH   6  13
+BRANCH   5  18
+ATOM     18  N   LIG d   1      -3.826  90.591 119.419  0.00  0.00     0.381 N 
+ATOM     19  H   LIG d   1      -3.862  89.613 119.212  0.00  0.00    -0.090 HD
+ATOM     20  H   LIG d   1      -4.417  90.767 120.212  0.00  0.00    -0.090 HD
+ATOM     21  H   LIG d   1      -2.889  90.859 119.628  0.00  0.00    -0.090 HD
+ENDBRANCH   5  18
+BRANCH   3  22
+ATOM     22  C   LIG d   1      -7.097  90.763 115.925  0.00  0.00     0.382 C 
+ATOM     23  O   LIG d   1      -7.593  91.355 114.936  0.00  0.00    -0.241 OA
+ATOM     24  O   LIG d   1      -7.362  89.562 116.118  0.00  0.00    -0.241 OA
+ENDBRANCH   3  22
+TORSDOF 7
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -4.9      1.721      4.769
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  O_6 
+REMARK    3  A    between atoms: C_3  and  C_4 
+REMARK    4  A    between atoms: C_7  and  O_6 
+REMARK    5  A    between atoms: C_9  and  C_10 
+REMARK    6  A    between atoms: N_15  and  C_14 
+REMARK    7  A    between atoms: N_20  and  C_19 
+REMARK       I    between atoms: C_22  and  N_20 
+ROOT
+ATOM      1  C   LIG d   1      -4.844  93.334 117.444  0.00  0.00     0.161 C 
+ATOM      2  C   LIG d   1      -4.507  94.467 118.204  0.00  0.00     0.016 C 
+ATOM      3  C   LIG d   1      -5.387  95.553 118.415  0.00  0.00     0.038 C 
+ATOM      4  C   LIG d   1      -6.728  95.511 118.003  0.00  0.00     0.028 C 
+ATOM      5  C   LIG d   1      -6.964  94.607 116.798  0.00  0.00    -0.047 C 
+ATOM      6  C   LIG d   1      -6.339  93.221 117.081  0.00  0.00     0.091 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O   LIG d   1      -4.402  92.142 118.123  0.00  0.00    -0.368 OA
+BRANCH   7   8
+ATOM      8  C   LIG d   1      -3.876  92.327 119.460  0.00  0.00     0.119 C 
+BRANCH   8   9
+ATOM      9  C   LIG d   1      -2.475  91.687 119.500  0.00  0.00     0.028 C 
+ATOM     10  C   LIG d   1      -1.487  92.376 118.544  0.00  0.00     0.006 C 
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   LIG d   1      -4.703  91.559 120.495  0.00  0.00     0.028 C 
+ATOM     12  C   LIG d   1      -6.156  92.052 120.583  0.00  0.00     0.006 C 
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  N   LIG d   1      -6.452  92.301 115.919  0.00  0.00    -0.311 N 
+ATOM     14  C   LIG d   1      -6.687  90.995 116.038  0.00  0.00     0.210 C 
+ATOM     15  C   LIG d   1      -6.745  90.226 114.715  0.00  0.00     0.109 C 
+ATOM     16  O   LIG d   1      -6.885  90.407 117.112  0.00  0.00    -0.276 OA
+ATOM     17  H   LIG d   1      -6.335  92.700 115.008  0.00  0.00     0.149 HD
+ENDBRANCH   6  13
+BRANCH   5  18
+ATOM     18  N   LIG d   1      -8.419  94.548 116.563  0.00  0.00     0.381 N 
+ATOM     19  H   LIG d   1      -8.598  94.252 115.624  0.00  0.00    -0.090 HD
+ATOM     20  H   LIG d   1      -8.804  95.468 116.683  0.00  0.00    -0.090 HD
+ATOM     21  H   LIG d   1      -8.843  93.916 117.205  0.00  0.00    -0.090 HD
+ENDBRANCH   5  18
+BRANCH   3  22
+ATOM     22  C   LIG d   1      -4.917  96.714 119.009  0.00  0.00     0.382 C 
+ATOM     23  O   LIG d   1      -3.756  97.120 118.760  0.00  0.00    -0.241 OA
+ATOM     24  O   LIG d   1      -5.622  97.336 119.826  0.00  0.00    -0.241 OA
+ENDBRANCH   3  22
+TORSDOF 7
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -4.7      2.325      4.409
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  O_6 
+REMARK    3  A    between atoms: C_3  and  C_4 
+REMARK    4  A    between atoms: C_7  and  O_6 
+REMARK    5  A    between atoms: C_9  and  C_10 
+REMARK    6  A    between atoms: N_15  and  C_14 
+REMARK    7  A    between atoms: N_20  and  C_19 
+REMARK       I    between atoms: C_22  and  N_20 
+ROOT
+ATOM      1  C   LIG d   1      -4.568  93.719 118.278  0.00  0.00     0.161 C 
+ATOM      2  C   LIG d   1      -5.692  94.529 118.045  0.00  0.00     0.016 C 
+ATOM      3  C   LIG d   1      -6.850  94.078 117.371  0.00  0.00     0.038 C 
+ATOM      4  C   LIG d   1      -7.023  92.732 117.015  0.00  0.00     0.028 C 
+ATOM      5  C   LIG d   1      -5.710  91.994 116.779  0.00  0.00    -0.047 C 
+ATOM      6  C   LIG d   1      -4.783  92.217 117.995  0.00  0.00     0.091 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O   LIG d   1      -4.097  93.913 119.626  0.00  0.00    -0.368 OA
+BRANCH   7   8
+ATOM      8  C   LIG d   1      -2.804  94.552 119.764  0.00  0.00     0.119 C 
+BRANCH   8   9
+ATOM      9  C   LIG d   1      -1.826  93.503 120.327  0.00  0.00     0.028 C 
+ATOM     10  C   LIG d   1      -0.596  93.305 119.425  0.00  0.00     0.006 C 
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   LIG d   1      -2.845  95.670 120.810  0.00  0.00     0.028 C 
+ATOM     12  C   LIG d   1      -4.034  96.625 120.617  0.00  0.00     0.006 C 
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  N   LIG d   1      -3.444  91.599 117.809  0.00  0.00    -0.311 N 
+ATOM     14  C   LIG d   1      -3.141  90.369 118.222  0.00  0.00     0.210 C 
+ATOM     15  C   LIG d   1      -1.699  89.932 117.948  0.00  0.00     0.109 C 
+ATOM     16  O   LIG d   1      -3.939  89.587 118.761  0.00  0.00    -0.276 OA
+ATOM     17  H   LIG d   1      -2.746  92.152 117.353  0.00  0.00     0.149 HD
+ENDBRANCH   6  13
+BRANCH   5  18
+ATOM     18  N   LIG d   1      -6.033  90.572 116.551  0.00  0.00     0.381 N 
+ATOM     19  H   LIG d   1      -5.207  90.017 116.653  0.00  0.00    -0.090 HD
+ATOM     20  H   LIG d   1      -6.373  90.462 115.612  0.00  0.00    -0.090 HD
+ATOM     21  H   LIG d   1      -6.726  90.272 117.201  0.00  0.00    -0.090 HD
+ENDBRANCH   5  18
+BRANCH   3  22
+ATOM     22  C   LIG d   1      -7.834  94.986 117.011  0.00  0.00     0.382 C 
+ATOM     23  O   LIG d   1      -8.886  94.585 116.458  0.00  0.00    -0.241 OA
+ATOM     24  O   LIG d   1      -7.663  96.207 117.193  0.00  0.00    -0.241 OA
+ENDBRANCH   3  22
+TORSDOF 7
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -4.7      2.501      4.290
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  O_6 
+REMARK    3  A    between atoms: C_3  and  C_4 
+REMARK    4  A    between atoms: C_7  and  O_6 
+REMARK    5  A    between atoms: C_9  and  C_10 
+REMARK    6  A    between atoms: N_15  and  C_14 
+REMARK    7  A    between atoms: N_20  and  C_19 
+REMARK       I    between atoms: C_22  and  N_20 
+ROOT
+ATOM      1  C   LIG d   1      -4.533  93.618 118.417  0.00  0.00     0.161 C 
+ATOM      2  C   LIG d   1      -5.658  94.423 118.175  0.00  0.00     0.016 C 
+ATOM      3  C   LIG d   1      -6.753  94.011 117.381  0.00  0.00     0.038 C 
+ATOM      4  C   LIG d   1      -6.865  92.700 116.895  0.00  0.00     0.028 C 
+ATOM      5  C   LIG d   1      -5.519  92.012 116.691  0.00  0.00    -0.047 C 
+ATOM      6  C   LIG d   1      -4.687  92.144 117.988  0.00  0.00     0.091 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O   LIG d   1      -4.165  93.698 119.808  0.00  0.00    -0.368 OA
+BRANCH   7   8
+ATOM      8  C   LIG d   1      -4.620  92.612 120.652  0.00  0.00     0.119 C 
+BRANCH   8   9
+ATOM      9  C   LIG d   1      -5.875  93.102 121.401  0.00  0.00     0.028 C 
+ATOM     10  C   LIG d   1      -7.146  92.350 120.970  0.00  0.00     0.006 C 
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   LIG d   1      -3.597  92.288 121.744  0.00  0.00     0.028 C 
+ATOM     12  C   LIG d   1      -2.153  92.254 121.217  0.00  0.00     0.006 C 
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  N   LIG d   1      -3.323  91.571 117.846  0.00  0.00    -0.311 N 
+ATOM     14  C   LIG d   1      -3.012  90.324 118.195  0.00  0.00     0.210 C 
+ATOM     15  C   LIG d   1      -1.544  89.941 117.985  0.00  0.00     0.109 C 
+ATOM     16  O   LIG d   1      -3.819  89.488 118.628  0.00  0.00    -0.276 OA
+ATOM     17  H   LIG d   1      -2.613  92.171 117.474  0.00  0.00     0.149 HD
+ENDBRANCH   6  13
+BRANCH   5  18
+ATOM     18  N   LIG d   1      -5.787  90.611 116.316  0.00  0.00     0.381 N 
+ATOM     19  H   LIG d   1      -6.762  90.412 116.421  0.00  0.00    -0.090 HD
+ATOM     20  H   LIG d   1      -5.274  90.006 116.932  0.00  0.00    -0.090 HD
+ATOM     21  H   LIG d   1      -5.508  90.451 115.373  0.00  0.00    -0.090 HD
+ENDBRANCH   5  18
+BRANCH   3  22
+ATOM     22  C   LIG d   1      -7.732  94.929 117.031  0.00  0.00     0.382 C 
+ATOM     23  O   LIG d   1      -8.821  94.531 116.550  0.00  0.00    -0.241 OA
+ATOM     24  O   LIG d   1      -7.524  96.151 117.150  0.00  0.00    -0.241 OA
+ENDBRANCH   3  22
+TORSDOF 7
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.5      4.650      7.173
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  O_6 
+REMARK    3  A    between atoms: C_3  and  C_4 
+REMARK    4  A    between atoms: C_7  and  O_6 
+REMARK    5  A    between atoms: C_9  and  C_10 
+REMARK    6  A    between atoms: N_15  and  C_14 
+REMARK    7  A    between atoms: N_20  and  C_19 
+REMARK       I    between atoms: C_22  and  N_20 
+ROOT
+ATOM      1  C   LIG d   1      -0.016  90.599 116.759  0.00  0.00     0.161 C 
+ATOM      2  C   LIG d   1       1.315  90.302 116.423  0.00  0.00     0.016 C 
+ATOM      3  C   LIG d   1       2.418  91.073 116.856  0.00  0.00     0.038 C 
+ATOM      4  C   LIG d   1       2.276  92.115 117.784  0.00  0.00     0.028 C 
+ATOM      5  C   LIG d   1       0.898  92.768 117.756  0.00  0.00    -0.047 C 
+ATOM      6  C   LIG d   1      -0.181  91.666 117.862  0.00  0.00     0.091 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O   LIG d   1      -0.710  89.390 117.124  0.00  0.00    -0.368 OA
+BRANCH   7   8
+ATOM      8  C   LIG d   1      -0.244  88.724 118.323  0.00  0.00     0.119 C 
+BRANCH   8   9
+ATOM      9  C   LIG d   1       0.222  87.312 117.917  0.00  0.00     0.028 C 
+ATOM     10  C   LIG d   1      -0.350  86.219 118.836  0.00  0.00     0.006 C 
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   LIG d   1      -1.386  88.504 119.319  0.00  0.00     0.028 C 
+ATOM     12  C   LIG d   1      -2.756  88.914 118.754  0.00  0.00     0.006 C 
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  N   LIG d   1      -1.560  92.211 117.757  0.00  0.00    -0.311 N 
+ATOM     14  C   LIG d   1      -2.296  92.553 118.813  0.00  0.00     0.210 C 
+ATOM     15  C   LIG d   1      -3.698  93.075 118.483  0.00  0.00     0.109 C 
+ATOM     16  O   LIG d   1      -1.909  92.503 119.990  0.00  0.00    -0.276 OA
+ATOM     17  H   LIG d   1      -1.941  92.314 116.836  0.00  0.00     0.149 HD
+ENDBRANCH   6  13
+BRANCH   5  18
+ATOM     18  N   LIG d   1       0.842  93.740 118.863  0.00  0.00     0.381 N 
+ATOM     19  H   LIG d   1       0.036  93.563 119.429  0.00  0.00    -0.090 HD
+ATOM     20  H   LIG d   1       0.761  94.665 118.480  0.00  0.00    -0.090 HD
+ATOM     21  H   LIG d   1       1.667  93.673 119.418  0.00  0.00    -0.090 HD
+ENDBRANCH   5  18
+BRANCH   3  22
+ATOM     22  C   LIG d   1       3.677  90.830 116.327  0.00  0.00     0.382 C 
+ATOM     23  O   LIG d   1       3.804  90.569 115.106  0.00  0.00    -0.241 OA
+ATOM     24  O   LIG d   1       4.681  90.825 117.063  0.00  0.00    -0.241 OA
+ENDBRANCH   3  22
+TORSDOF 7
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -4.4      2.116      4.333
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  O_6 
+REMARK    3  A    between atoms: C_3  and  C_4 
+REMARK    4  A    between atoms: C_7  and  O_6 
+REMARK    5  A    between atoms: C_9  and  C_10 
+REMARK    6  A    between atoms: N_15  and  C_14 
+REMARK    7  A    between atoms: N_20  and  C_19 
+REMARK       I    between atoms: C_22  and  N_20 
+ROOT
+ATOM      1  C   LIG d   1      -5.410  94.254 118.146  0.00  0.00     0.161 C 
+ATOM      2  C   LIG d   1      -6.153  93.916 117.003  0.00  0.00     0.016 C 
+ATOM      3  C   LIG d   1      -6.233  92.601 116.488  0.00  0.00     0.038 C 
+ATOM      4  C   LIG d   1      -5.694  91.503 117.173  0.00  0.00     0.028 C 
+ATOM      5  C   LIG d   1      -4.509  91.865 118.062  0.00  0.00    -0.047 C 
+ATOM      6  C   LIG d   1      -4.906  93.051 118.970  0.00  0.00     0.091 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O   LIG d   1      -6.175  95.147 118.979  0.00  0.00    -0.368 OA
+BRANCH   7   8
+ATOM      8  C   LIG d   1      -6.933  94.529 120.047  0.00  0.00     0.119 C 
+BRANCH   8   9
+ATOM      9  C   LIG d   1      -8.428  94.727 119.729  0.00  0.00     0.028 C 
+ATOM     10  C   LIG d   1      -9.175  93.393 119.563  0.00  0.00     0.006 C 
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   LIG d   1      -6.704  95.246 121.381  0.00  0.00     0.028 C 
+ATOM     12  C   LIG d   1      -5.636  96.348 121.289  0.00  0.00     0.006 C 
+ENDBRANCH   8  11
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+BRANCH   6  13
+ATOM     13  N   LIG d   1      -3.776  93.524 119.812  0.00  0.00    -0.311 N 
+ATOM     14  C   LIG d   1      -3.581  93.124 121.067  0.00  0.00     0.210 C 
+ATOM     15  C   LIG d   1      -2.367  93.749 121.763  0.00  0.00     0.109 C 
+ATOM     16  O   LIG d   1      -4.278  92.287 121.660  0.00  0.00    -0.276 OA
+ATOM     17  H   LIG d   1      -3.144  94.181 119.399  0.00  0.00     0.149 HD
+ENDBRANCH   6  13
+BRANCH   5  18
+ATOM     18  N   LIG d   1      -4.134  90.656 118.820  0.00  0.00     0.381 N 
+ATOM     19  H   LIG d   1      -3.140  90.615 118.922  0.00  0.00    -0.090 HD
+ATOM     20  H   LIG d   1      -4.432  89.845 118.307  0.00  0.00    -0.090 HD
+ATOM     21  H   LIG d   1      -4.567  90.669 119.717  0.00  0.00    -0.090 HD
+ENDBRANCH   5  18
+BRANCH   3  22
+ATOM     22  C   LIG d   1      -6.825  92.382 115.253  0.00  0.00     0.382 C 
+ATOM     23  O   LIG d   1      -7.521  93.281 114.723  0.00  0.00    -0.241 OA
+ATOM     24  O   LIG d   1      -6.707  91.280 114.683  0.00  0.00    -0.241 OA
+ENDBRANCH   3  22
+TORSDOF 7
+ENDMDL

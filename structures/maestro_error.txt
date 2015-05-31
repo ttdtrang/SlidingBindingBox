@@ -1,0 +1,782 @@
+DISPLAY: :0.0
+
+Release is:
+Couldn't find the Linux release file.
+
+Graphics:
+
+********************** Output of 'lspci -vv' **********************
+00:00.0 Host bridge: Intel Corporation 82G33/G31/P35/P31 Express DRAM Controller (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort+ >SERR- <PERR- INTx-
+	Latency: 0
+	Capabilities: <access denied>
+	Kernel driver in use: agpgart-intel
+	Kernel modules: intel-agp
+
+00:02.0 VGA compatible controller: Intel Corporation 82G33/G31 Express Integrated Graphics Controller (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 30
+	Region 0: Memory at 90300000 (32-bit, non-prefetchable) [size=512K]
+	Region 1: I/O ports at 2460 [size=8]
+	Region 2: Memory at 80000000 (32-bit, prefetchable) [size=256M]
+	Region 3: Memory at 90200000 (32-bit, non-prefetchable) [size=1M]
+	Capabilities: <access denied>
+	Kernel driver in use: i915
+	Kernel modules: i915
+
+00:03.0 Communication controller: Intel Corporation 82G33/G31/P35/P31 Express MEI Controller (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 11
+	Region 0: Memory at 903a5900 (64-bit, non-prefetchable) [size=16]
+	Capabilities: <access denied>
+
+00:19.0 Ethernet controller: Intel Corporation 82566DC-2 Gigabit Network Connection (rev 02)
+	Subsystem: Intel Corporation Device 0001
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 29
+	Region 0: Memory at 90380000 (32-bit, non-prefetchable) [size=128K]
+	Region 1: Memory at 903a4000 (32-bit, non-prefetchable) [size=4K]
+	Region 2: I/O ports at 20e0 [size=32]
+	Capabilities: <access denied>
+	Kernel driver in use: e1000e
+	Kernel modules: e1000e
+
+00:1a.0 USB Controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #4 (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 18
+	Region 4: I/O ports at 20c0 [size=32]
+	Capabilities: <access denied>
+	Kernel driver in use: uhci_hcd
+
+00:1a.1 USB Controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #5 (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin B routed to IRQ 21
+	Region 4: I/O ports at 20a0 [size=32]
+	Capabilities: <access denied>
+	Kernel driver in use: uhci_hcd
+
+00:1a.2 USB Controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #6 (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin C routed to IRQ 17
+	Region 4: I/O ports at 2080 [size=32]
+	Capabilities: <access denied>
+	Kernel driver in use: uhci_hcd
+
+00:1a.7 USB Controller: Intel Corporation 82801I (ICH9 Family) USB2 EHCI Controller #2 (rev 02) (prog-if 20)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin C routed to IRQ 17
+	Region 0: Memory at 903a5400 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: <access denied>
+	Kernel driver in use: ehci_hcd
+
+00:1b.0 Audio device: Intel Corporation 82801I (ICH9 Family) HD Audio Controller (rev 02)
+	Subsystem: Intel Corporation Device 0002
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 22
+	Region 0: Memory at 903a0000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: HDA Intel
+	Kernel modules: snd-hda-intel
+
+00:1c.0 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 1 (rev 02)
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 00003000-00003fff
+	Memory behind bridge: 90400000-905fffff
+	Prefetchable memory behind bridge: 0000000090600000-00000000907fffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA+ VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.1 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 2 (rev 02)
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	I/O behind bridge: 00001000-00001fff
+	Memory behind bridge: 90100000-901fffff
+	Prefetchable memory behind bridge: 0000000090800000-00000000909fffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA+ VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.2 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 3 (rev 02)
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=00, secondary=03, subordinate=03, sec-latency=0
+	I/O behind bridge: 00004000-00004fff
+	Memory behind bridge: 90a00000-90bfffff
+	Prefetchable memory behind bridge: 0000000090c00000-0000000090dfffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA+ VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.3 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 4 (rev 02)
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=00, secondary=04, subordinate=04, sec-latency=0
+	I/O behind bridge: 00005000-00005fff
+	Memory behind bridge: 90e00000-90ffffff
+	Prefetchable memory behind bridge: 0000000091000000-00000000911fffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA+ VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.4 PCI bridge: Intel Corporation 82801I (ICH9 Family) PCI Express Port 5 (rev 02)
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Bus: primary=00, secondary=05, subordinate=05, sec-latency=0
+	I/O behind bridge: 00006000-00006fff
+	Memory behind bridge: 91200000-913fffff
+	Prefetchable memory behind bridge: 0000000091400000-00000000915fffff
+	Secondary status: 66MHz- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA+ VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1d.0 USB Controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #1 (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 23
+	Region 4: I/O ports at 2060 [size=32]
+	Capabilities: <access denied>
+	Kernel driver in use: uhci_hcd
+
+00:1d.1 USB Controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #2 (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin B routed to IRQ 19
+	Region 4: I/O ports at 2040 [size=32]
+	Capabilities: <access denied>
+	Kernel driver in use: uhci_hcd
+
+00:1d.2 USB Controller: Intel Corporation 82801I (ICH9 Family) USB UHCI Controller #3 (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem- BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin C routed to IRQ 18
+	Region 4: I/O ports at 2020 [size=32]
+	Capabilities: <access denied>
+	Kernel driver in use: uhci_hcd
+
+00:1d.7 USB Controller: Intel Corporation 82801I (ICH9 Family) USB2 EHCI Controller #1 (rev 02) (prog-if 20)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 23
+	Region 0: Memory at 903a5000 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: <access denied>
+	Kernel driver in use: ehci_hcd
+
+00:1e.0 PCI bridge: Intel Corporation 82801 PCI Bridge (rev 92) (prog-if 01)
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Bus: primary=00, secondary=06, subordinate=06, sec-latency=32
+	Memory behind bridge: 90000000-900fffff
+	Secondary status: 66MHz- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort+ <SERR- <PERR-
+	BridgeCtl: Parity- SERR- NoISA+ VGA- MAbort- >Reset- FastB2B-
+		PriDiscTmr- SecDiscTmr- DiscTmrStat- DiscTmrSERREn-
+	Capabilities: <access denied>
+
+00:1f.0 ISA bridge: Intel Corporation 82801IH (ICH9DH) LPC Interface Controller (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Capabilities: <access denied>
+	Kernel modules: iTCO_wdt
+
+00:1f.2 IDE interface: Intel Corporation 82801IR/IO/IH (ICH9R/DO/DH) 4 port SATA IDE Controller (rev 02) (prog-if 8f [Master SecP SecO PriP PriO])
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz+ UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 21
+	Region 0: I/O ports at 2458 [size=8]
+	Region 1: I/O ports at 2474 [size=4]
+	Region 2: I/O ports at 2450 [size=8]
+	Region 3: I/O ports at 2470 [size=4]
+	Region 4: I/O ports at 2430 [size=16]
+	Region 5: I/O ports at 2420 [size=16]
+	Capabilities: <access denied>
+	Kernel driver in use: ata_piix
+
+00:1f.3 SMBus: Intel Corporation 82801I (ICH9 Family) SMBus Controller (rev 02)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin B routed to IRQ 10
+	Region 0: Memory at 903a5800 (64-bit, non-prefetchable) [size=256]
+	Region 4: I/O ports at 2000 [size=32]
+	Kernel modules: i2c-i801
+
+00:1f.5 IDE interface: Intel Corporation 82801I (ICH9 Family) 2 port SATA IDE Controller (rev 02) (prog-if 85 [Master SecO PriO])
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz+ UDF- FastB2B+ ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin A routed to IRQ 21
+	Region 0: I/O ports at 2448 [size=8]
+	Region 1: I/O ports at 246c [size=4]
+	Region 2: I/O ports at 2440 [size=8]
+	Region 3: I/O ports at 2468 [size=4]
+	Region 4: I/O ports at 2410 [size=16]
+	Region 5: I/O ports at 2400 [size=16]
+	Capabilities: <access denied>
+	Kernel driver in use: ata_piix
+
+02:00.0 IDE interface: Marvell Technology Group Ltd. 88SE6101 single-port PATA133 interface (rev b2) (prog-if 8f [Master SecP SecO PriP PriO])
+	Subsystem: Marvell Technology Group Ltd. 88SE6101 single-port PATA133 interface
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 17
+	Region 0: I/O ports at 1018 [size=8]
+	Region 1: I/O ports at 1024 [size=4]
+	Region 2: I/O ports at 1010 [size=8]
+	Region 3: I/O ports at 1020 [size=4]
+	Region 4: I/O ports at 1000 [size=16]
+	Region 5: Memory at 90100000 (32-bit, non-prefetchable) [size=512]
+	Capabilities: <access denied>
+	Kernel driver in use: pata_marvell
+	Kernel modules: pata_marvell
+
+06:03.0 FireWire (IEEE 1394): Texas Instruments TSB43AB22/A IEEE-1394a-2000 Controller (PHY/Link) (prog-if 10)
+	Subsystem: Intel Corporation Device 5044
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV+ VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=medium >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 32 (500ns min, 1000ns max), Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 19
+	Region 0: Memory at 90004000 (32-bit, non-prefetchable) [size=2K]
+	Region 1: Memory at 90000000 (32-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: ohci1394
+	Kernel modules: firewire-ohci, ohci1394
+
+
+********************** Output of 'glxinfo -l -t' **********************
+name of display: :0.0
+display: :0  screen: 0
+direct rendering: Yes
+server glx vendor string: SGI
+server glx version string: 1.2
+server glx extensions:
+    GLX_ARB_multisample, GLX_EXT_import_context, GLX_EXT_texture_from_pixmap, 
+    GLX_EXT_visual_info, GLX_EXT_visual_rating, GLX_MESA_copy_sub_buffer, 
+    GLX_OML_swap_method, GLX_SGI_make_current_read, GLX_SGI_swap_control, 
+    GLX_SGIS_multisample, GLX_SGIX_fbconfig, GLX_SGIX_pbuffer, 
+    GLX_SGIX_visual_select_group
+client glx vendor string: Mesa Project and SGI
+client glx version string: 1.4
+client glx extensions:
+    GLX_ARB_get_proc_address, GLX_ARB_multisample, GLX_EXT_import_context, 
+    GLX_EXT_visual_info, GLX_EXT_visual_rating, GLX_MESA_allocate_memory, 
+    GLX_MESA_copy_sub_buffer, GLX_MESA_swap_control, 
+    GLX_MESA_swap_frame_usage, GLX_OML_swap_method, GLX_OML_sync_control, 
+    GLX_SGI_make_current_read, GLX_SGI_swap_control, GLX_SGI_video_sync, 
+    GLX_SGIS_multisample, GLX_SGIX_fbconfig, GLX_SGIX_pbuffer, 
+    GLX_SGIX_visual_select_group, GLX_EXT_texture_from_pixmap
+GLX version: 1.2
+GLX extensions:
+    GLX_ARB_get_proc_address, GLX_ARB_multisample, GLX_EXT_import_context, 
+    GLX_EXT_visual_info, GLX_EXT_visual_rating, GLX_MESA_copy_sub_buffer, 
+    GLX_MESA_swap_frame_usage, GLX_OML_swap_method, GLX_SGI_make_current_read, 
+    GLX_SGI_video_sync, GLX_SGIS_multisample, GLX_SGIX_fbconfig, 
+    GLX_SGIX_pbuffer, GLX_SGIX_visual_select_group, 
+    GLX_EXT_texture_from_pixmap
+OpenGL vendor string: Tungsten Graphics, Inc
+OpenGL renderer string: Mesa DRI Intel(R) G33 GEM 20091221 2009Q4 x86/MMX/SSE2
+OpenGL version string: 1.4 Mesa 7.7.1
+OpenGL extensions:
+    GL_EXT_compiled_vertex_array, GL_EXT_texture_env_add, GL_ARB_copy_buffer, 
+    GL_ARB_depth_texture, GL_ARB_draw_buffers, 
+    GL_ARB_draw_elements_base_vertex, GL_ARB_fragment_program, 
+    GL_ARB_half_float_pixel, GL_ARB_map_buffer_range, GL_ARB_multisample, 
+    GL_ARB_multitexture, GL_ARB_pixel_buffer_object, GL_ARB_point_parameters, 
+    GL_ARB_point_sprite, GL_ARB_provoking_vertex, GL_ARB_shader_objects, 
+    GL_ARB_shading_language_100, GL_ARB_shading_language_120, GL_ARB_shadow, 
+    GL_ARB_sync, GL_ARB_texture_border_clamp, GL_ARB_texture_compression, 
+    GL_ARB_texture_cube_map, GL_ARB_texture_env_add, 
+    GL_ARB_texture_env_combine, GL_ARB_texture_env_crossbar, 
+    GL_ARB_texture_env_dot3, GL_ARB_texture_mirrored_repeat, 
+    GL_ARB_texture_non_power_of_two, GL_ARB_texture_rectangle, 
+    GL_ARB_transpose_matrix, GL_ARB_vertex_array_object, 
+    GL_ARB_vertex_buffer_object, GL_ARB_vertex_program, GL_ARB_vertex_shader, 
+    GL_ARB_window_pos, GL_EXT_abgr, GL_EXT_bgra, GL_EXT_blend_color, 
+    GL_EXT_blend_equation_separate, GL_EXT_blend_func_separate, 
+    GL_EXT_blend_logic_op, GL_EXT_blend_minmax, GL_EXT_blend_subtract, 
+    GL_EXT_cull_vertex, GL_EXT_copy_texture, GL_EXT_draw_range_elements, 
+    GL_EXT_framebuffer_blit, GL_EXT_framebuffer_object, GL_EXT_fog_coord, 
+    GL_EXT_gpu_program_parameters, GL_EXT_multi_draw_arrays, 
+    GL_EXT_packed_depth_stencil, GL_EXT_packed_pixels, 
+    GL_EXT_pixel_buffer_object, GL_EXT_point_parameters, 
+    GL_EXT_polygon_offset, GL_EXT_provoking_vertex, GL_EXT_rescale_normal, 
+    GL_EXT_secondary_color, GL_EXT_separate_specular_color, 
+    GL_EXT_shadow_funcs, GL_EXT_stencil_two_side, GL_EXT_stencil_wrap, 
+    GL_EXT_subtexture, GL_EXT_texture, GL_EXT_texture3D, 
+    GL_EXT_texture_cube_map, GL_EXT_texture_edge_clamp, 
+    GL_EXT_texture_env_combine, GL_EXT_texture_env_dot3, 
+    GL_EXT_texture_filter_anisotropic, GL_EXT_texture_lod_bias, 
+    GL_EXT_texture_object, GL_EXT_texture_rectangle, GL_EXT_vertex_array, 
+    GL_3DFX_texture_compression_FXT1, GL_APPLE_client_storage, 
+    GL_APPLE_packed_pixels, GL_APPLE_vertex_array_object, 
+    GL_ATI_blend_equation_separate, GL_ATI_texture_env_combine3, 
+    GL_ATI_separate_stencil, GL_IBM_multimode_draw_arrays, 
+    GL_IBM_rasterpos_clip, GL_IBM_texture_mirrored_repeat, 
+    GL_INGR_blend_func_separate, GL_MESA_pack_invert, GL_MESA_ycbcr_texture, 
+    GL_MESA_window_pos, GL_NV_blend_square, GL_NV_light_max_exponent, 
+    GL_NV_packed_depth_stencil, GL_NV_texture_env_combine4, 
+    GL_NV_texture_rectangle, GL_NV_texgen_reflection, GL_NV_vertex_program, 
+    GL_NV_vertex_program1_1, GL_OES_read_format, GL_SGIS_generate_mipmap, 
+    GL_SGIS_texture_border_clamp, GL_SGIS_texture_edge_clamp, 
+    GL_SGIS_texture_lod, GL_SUN_multi_draw_arrays
+OpenGL limits:
+    GL_MAX_ATTRIB_STACK_DEPTH = 16
+    GL_MAX_CLIENT_ATTRIB_STACK_DEPTH = 16
+    GL_MAX_CLIP_PLANES = 6
+    GL_MAX_COLOR_MATRIX_STACK_DEPTH = 4
+    GL_MAX_ELEMENTS_VERTICES = 3000
+    GL_MAX_ELEMENTS_INDICES = 3000
+    GL_MAX_EVAL_ORDER = 30
+    GL_MAX_LIGHTS = 8
+    GL_MAX_LIST_NESTING = 64
+    GL_MAX_MODELVIEW_STACK_DEPTH = 32
+    GL_MAX_NAME_STACK_DEPTH = 64
+    GL_MAX_PIXEL_MAP_TABLE = 256
+    GL_MAX_PROJECTION_STACK_DEPTH = 32
+    GL_MAX_TEXTURE_STACK_DEPTH = 10
+    GL_MAX_TEXTURE_SIZE = 2048
+    GL_MAX_3D_TEXTURE_SIZE = 256
+    GL_MAX_VIEWPORT_DIMS = 4096, 4096
+    GL_ALIASED_LINE_WIDTH_RANGE = 1, 5
+    GL_SMOOTH_LINE_WIDTH_RANGE = 1, 5
+    GL_ALIASED_POINT_SIZE_RANGE = 1, 255
+    GL_SMOOTH_POINT_SIZE_RANGE = 1, 3
+    GL_MAX_CUBE_MAP_TEXTURE_SIZE_ARB = 2048
+    GL_NUM_COMPRESSED_TEXTURE_FORMATS_ARB = 2
+    GL_MAX_TEXTURE_UNITS_ARB = 8
+    GL_MAX_TEXTURE_LOD_BIAS_EXT = 12
+    GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT = 4
+    GL_MAX_DRAW_BUFFERS_ARB = 1
+    GL_MAX_CONVOLUTION_WIDTH/HEIGHT = 9, 9
+    GL_VERTEX_PROGRAM_ARB:
+        GL_MAX_PROGRAM_INSTRUCTIONS_ARB = 16384
+        GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB = 0
+        GL_MAX_PROGRAM_TEMPORARIES_ARB = 256
+        GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB = 0
+        GL_MAX_PROGRAM_PARAMETERS_ARB = 1024
+        GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB = 0
+        GL_MAX_PROGRAM_ATTRIBS_ARB = 16
+        GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB = 0
+        GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB = 1
+        GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB = 0
+        GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB = 1024
+        GL_MAX_PROGRAM_ENV_PARAMETERS_ARB = 256
+    GL_FRAGMENT_PROGRAM_ARB:
+        GL_MAX_PROGRAM_INSTRUCTIONS_ARB = 16384
+        GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB = 96
+        GL_MAX_PROGRAM_TEMPORARIES_ARB = 256
+        GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB = 16
+        GL_MAX_PROGRAM_PARAMETERS_ARB = 64
+        GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB = 32
+        GL_MAX_PROGRAM_ATTRIBS_ARB = 12
+        GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB = 11
+        GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB = 0
+        GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB = 0
+        GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB = 1024
+        GL_MAX_PROGRAM_ENV_PARAMETERS_ARB = 32
+        GL_MAX_PROGRAM_ALU_INSTRUCTIONS_ARB = 16384
+        GL_MAX_PROGRAM_TEX_INSTRUCTIONS_ARB = 16384
+        GL_MAX_PROGRAM_TEX_INDIRECTIONS_ARB = 16384
+        GL_MAX_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB = 64
+        GL_MAX_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB = 32
+        GL_MAX_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB = 4
+    GL_VERTEX_SHADER_ARB:
+        GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB = 4096
+        GL_MAX_VARYING_FLOATS_ARB = 32
+        GL_MAX_VERTEX_ATTRIBS_ARB = 16
+        GL_MAX_TEXTURE_IMAGE_UNITS_ARB = 8
+        GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS_ARB = 16
+        GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB = 16
+        GL_MAX_TEXTURE_COORDS_ARB = 8
+
+72 GLX Visuals
+Vis  Vis   Visual Trans  buff lev render DB ste  r   g   b   a  aux dep ste  accum buffers  MS   MS
+ ID Depth   Type  parent size el   type     reo sz  sz  sz  sz  buf th  ncl  r   g   b   a  num bufs
+----------------------------------------------------------------------------------------------------
+0x21 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0x22 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0xc8 24 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0xc9 24 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0xca 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0xcb 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0xcc 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0xcd 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0xce 24 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0xcf 24 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0xd0 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0xd1 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0xd2 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0xd3 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0xd4 24 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0xd5 24 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0xd6 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0xd7 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0xd8 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0xd9 24 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0xda 24 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0xdb 24 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0xdc 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0xdd 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0xde 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0xdf 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0xe0 24 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0xe1 24 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0xe2 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0xe3 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0xe4 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0xe5 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0xe6 24 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0xe7 24 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0xe8 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0xe9 24 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0xea 24 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0xeb 24 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0xec 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0xed 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0xee 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0xef 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0xf0 24 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0xf1 24 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0xf2 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0xf3 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0xf4 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0xf5 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0xf6 24 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0xf7 24 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0xf8 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0xf9 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0xfa 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0xfb 24 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0xfc 24 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0xfd 24 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0xfe 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0xff 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0x100 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0x101 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0x102 24 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0x103 24 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0x104 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0x105 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0x106 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0x107 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0x108 24 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0x109 24 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0x10a 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0x10b 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0x10c 24 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0x67 32 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+
+96 GLXFBConfigs:
+Vis  Vis   Visual Trans  buff lev render DB ste  r   g   b   a  aux dep ste  accum buffers  MS   MS
+ ID Depth   Type  parent size el   type     reo sz  sz  sz  sz  buf th  ncl  r   g   b   a  num bufs
+----------------------------------------------------------------------------------------------------
+0x68  0 TrueColor    0     16  0  rgba   0   0   5   6   5   0   0    0  0   0   0   0   0   0   0
+0x69  0 TrueColor    0     16  0  rgba   0   0   5   6   5   0   0    0  0  16  16  16   0   0   0
+0x6a  0 TrueColor    0     16  0  rgba   1   0   5   6   5   0   0    0  0   0   0   0   0   0   0
+0x6b  0 TrueColor    0     16  0  rgba   1   0   5   6   5   0   0    0  0  16  16  16   0   0   0
+0x6c  0 TrueColor    0     16  0  rgba   1   0   5   6   5   0   0    0  0   0   0   0   0   0   0
+0x6d  0 TrueColor    0     16  0  rgba   1   0   5   6   5   0   0    0  0  16  16  16   0   0   0
+0x6e  0 TrueColor    0     16  0  rgba   0   0   5   6   5   0   0   16  0   0   0   0   0   0   0
+0x6f  0 TrueColor    0     16  0  rgba   0   0   5   6   5   0   0   16  0  16  16  16   0   0   0
+0x70  0 TrueColor    0     16  0  rgba   1   0   5   6   5   0   0   16  0   0   0   0   0   0   0
+0x71  0 TrueColor    0     16  0  rgba   1   0   5   6   5   0   0   16  0  16  16  16   0   0   0
+0x72  0 TrueColor    0     16  0  rgba   1   0   5   6   5   0   0   16  0   0   0   0   0   0   0
+0x73  0 TrueColor    0     16  0  rgba   1   0   5   6   5   0   0   16  0  16  16  16   0   0   0
+0x74  0 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0x75  0 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0x76  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0x77  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0x78  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0x79  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0x7a  0 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0x7b  0 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0x7c  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0x7d  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0x7e  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0x7f  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0x80  0 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0x81  0 TrueColor    0     24  0  rgba   0   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0x82  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0x83  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0x84  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0x85  0 TrueColor    0     24  0  rgba   1   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0x86  0 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0x87  0 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0x88  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0x89  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0x8a  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0x8b  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0x8c  0 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0x8d  0 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0x8e  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0x8f  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0x90  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0x91  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0x92  0 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0x93  0 TrueColor    0     32  0  rgba   0   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0x94  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0x95  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0x96  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0x97  0 TrueColor    0     32  0  rgba   1   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0x98  0 DirectColor  0     16  0  rgba   0   0   5   6   5   0   0    0  0   0   0   0   0   0   0
+0x99  0 DirectColor  0     16  0  rgba   0   0   5   6   5   0   0    0  0  16  16  16   0   0   0
+0x9a  0 DirectColor  0     16  0  rgba   1   0   5   6   5   0   0    0  0   0   0   0   0   0   0
+0x9b  0 DirectColor  0     16  0  rgba   1   0   5   6   5   0   0    0  0  16  16  16   0   0   0
+0x9c  0 DirectColor  0     16  0  rgba   1   0   5   6   5   0   0    0  0   0   0   0   0   0   0
+0x9d  0 DirectColor  0     16  0  rgba   1   0   5   6   5   0   0    0  0  16  16  16   0   0   0
+0x9e  0 DirectColor  0     16  0  rgba   0   0   5   6   5   0   0   16  0   0   0   0   0   0   0
+0x9f  0 DirectColor  0     16  0  rgba   0   0   5   6   5   0   0   16  0  16  16  16   0   0   0
+0xa0  0 DirectColor  0     16  0  rgba   1   0   5   6   5   0   0   16  0   0   0   0   0   0   0
+0xa1  0 DirectColor  0     16  0  rgba   1   0   5   6   5   0   0   16  0  16  16  16   0   0   0
+0xa2  0 DirectColor  0     16  0  rgba   1   0   5   6   5   0   0   16  0   0   0   0   0   0   0
+0xa3  0 DirectColor  0     16  0  rgba   1   0   5   6   5   0   0   16  0  16  16  16   0   0   0
+0xa4  0 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0xa5  0 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0xa6  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0xa7  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0xa8  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0    0  0   0   0   0   0   0   0
+0xa9  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0    0  0  16  16  16   0   0   0
+0xaa  0 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0xab  0 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0xac  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0xad  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0xae  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  0   0   0   0   0   0   0
+0xaf  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  0  16  16  16   0   0   0
+0xb0  0 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0xb1  0 DirectColor  0     24  0  rgba   0   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0xb2  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0xb3  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0xb4  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  8   0   0   0   0   0   0
+0xb5  0 DirectColor  0     24  0  rgba   1   0   8   8   8   0   0   24  8  16  16  16   0   0   0
+0xb6  0 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0xb7  0 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0xb8  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0xb9  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0xba  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0    0  0   0   0   0   0   0   0
+0xbb  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0    0  0  16  16  16  16   0   0
+0xbc  0 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0xbd  0 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0xbe  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0xbf  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0xc0  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  0   0   0   0   0   0   0
+0xc1  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  0  16  16  16  16   0   0
+0xc2  0 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0xc3  0 DirectColor  0     32  0  rgba   0   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0xc4  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0xc5  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+0xc6  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  8   0   0   0   0   0   0
+0xc7  0 DirectColor  0     32  0  rgba   1   0   8   8   8   8   0   24  8  16  16  16  16   0   0
+
+Shell resource limits:
+unlimited
+
+
+********************** Machine and Product information **********************
+
+Date:          Thu Mar  1 15:07:10 2012
+SCHRODINGER:   /opt/schrodinger
+uname -a :     Linux icst43 2.6.32-30-generic #59-Ubuntu SMP Tue Mar 1 21:30:21 UTC 2011 i686 GNU/Linux
+Machine name:  icst43
+IP address:    127 0 1 1
+Machine id:    520494850
+Main memory:   1986 Mb
+Free disk:     10987 Mb
+Host ID: 001cc0613a82
+OS:            LINUX 2.6.32-30-generic
+Distribution:  Ubuntu 10.04.1 LTS 
+ \l
+CPU:           i686
+Processor:     Intel(R) Core(TM)2 Duo CPU E4600 @ 2.40GHz (1200 MHz)
+Processors:    2
+perl:          5.010
+glibc:         2.11.1
+Product:       canvas-v14112-Linux-x86
+Product:       canvas-v14112-Linux-x86_64
+Product:       combiglide-v27111-Linux-x86
+Product:       combiglide-v27111-Linux-x86_64
+Product:       epik-v22111-Linux-x86
+Product:       epik-v22111-Linux-x86_64
+Product:       impact-v57111-Linux-x86
+Product:       impact-v57111-Linux-x86_64
+Product:       jaguar-v78111-Linux-x86
+Product:       jaguar-v78111-Linux-x86_64
+Product:       knime-v14111-Linux-x86
+Product:       knime-v14111-Linux-x86_64
+Product:       macromodel-v99111-Linux-x86
+Product:       macromodel-v99111-Linux-x86_64
+Product:       maestro-v92112-Linux-x86
+Product:       maestro-v92112-Linux-x86_64
+Product:       mcpro-v28111-Linux-x86
+Product:       mcpro-v28111-Linux-x86_64
+Product:       mmshare-v20111-Linux-x86
+Product:       mmshare-v20111-Linux-x86_64
+Product:       phase-v33111-Linux-x86
+Product:       phase-v33111-Linux-x86_64
+Product:       psp-v30111-Linux-x86
+Product:       psp-v30111-Linux-x86_64
+Product:       qikprop-v34111-Linux-x86
+Product:       qikprop-v34111-Linux-x86_64
+Module:        python-v39111-Linux-x86
+Module:        python-v39111-Linux-x86_64
+
+
+**************************** User Environment ****************************
+
+CPPFLAGS=-I/home/Ubuntu/tk/Programs/fftw/include
+LIB=/home/Ubuntu/tk/Programs/voidoo_linux/lib/
+JOBUSER=
+PHARMA_EXEC=/opt/schrodinger/phase-v33111/bin/Linux-x86
+ROSETTA3_DB=/home/Ubuntu/tk/Programs/rosetta_bundles/rosetta_database/
+SCHRODINGER_TEMP_PROJECT=/home/Ubuntu/tk/.schrodinger/tmp
+TK_LIBRARY=/opt/schrodinger/mmshare-v20111/lib/Linux-x86/tk_lib
+SHELL=/bin/bash
+MMRESDIR=/opt/schrodinger/maestro-v92112/data/res
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/
+MANDATORY_PATH=/usr/share/gconf/gnome.mandatory.path
+XMODIFIERS=@im=ibus
+PSP_EXEC=/opt/schrodinger/psp-v30111/bin/Linux-x86
+python=/usr/share/man/man1/python.1.gz
+PYTHONPATH=:/home/Ubuntu/tk/bin/modeller9v7/modlib:/home/Ubuntu/tk/bin/modeller9v7/lib/i386-intel8
+DESMOND_EXEC=
+MAESTRO_TEMP_LOCATION=/home/Ubuntu/tk/.schrodinger/tmp/11402
+PERLLIB=/opt/schrodinger/maestro-v92112/bin/Linux-x86:/opt/schrodinger/mmshare-v20111/bin/Linux-x86:/opt/schrodinger/mmshare-v20111/lib/Linux-x86/perl5:/opt/schrodinger/mmshare-v20111/lib/Linux-x86/perl5/site_perl:
+JAGUAR_EXEC=/opt/schrodinger/jaguar-v78111/bin/Linux-x86
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-DZTxHPNXDD,guid=f593227378daf362f3c0ef8b4f4c7e90
+ORBIT_SOCKETDIR=/tmp/orbit-tk
+GNOME_KEYRING_PID=1464
+DESKTOP_SESSION=gnome
+GTK_MODULES=canberra-gtk-module
+PDB_DIR=/home/Ubuntu/tk/PDB
+LS_COLORS=rs=0:di=01;34:ln=01;36:hl=44;37:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+HOST_ARGS=
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+COMBIGLIDE_EXEC=/opt/schrodinger/combiglide-v27111/bin/Linux-x86
+REMOTE_SCHRODINGER=/opt/schrodinger
+USER=tk
+REMOTE_MMSHARE_EXEC=/opt/schrodinger/mmshare-v20111/bin/Linux-x86
+XAUTHORITY=/var/run/gdm/auth-for-tk-rwkDgM/database
+MGLPATH=/home/Ubuntu/tk/Programs/mgltools_i86Linux2_1.5.4/MGLToolsPckgs/AutoDockTools/Utilities24/
+SESSION_MANAGER=local/icst43:@/tmp/.ICE-unix/1482,unix/icst43:/tmp/.ICE-unix/1482
+SHLVL=1
+DISPLAY=:0.0
+BROWSER_EXISTS=1
+WINDOWID=71303173
+SCHRODINGER_COMMANDLINE=/opt/schrodinger/maestro 
+GDM_KEYBOARD_LAYOUT=us
+SCHRODINGER_RELEASE_YEAR=2011
+QT_PLUGIN_PATH=/opt/schrodinger/mmshare-v20111/lib/Linux-x86/qt_plugins:
+VMDSIMPLEGRAPHICS=1
+TCL_LIBRARY=/opt/schrodinger/mmshare-v20111/lib/Linux-x86/tcl_lib
+GDMSESSION=gnome
+SCHRODINGER_PRODUCT=maestro
+_=/opt/schrodinger/maestro
+PERL5LIB=/opt/schrodinger/maestro-v92112/bin/Linux-x86:/opt/schrodinger/mmshare-v20111/bin/Linux-x86:/opt/schrodinger/mmshare-v20111/lib/Linux-x86/perl5:/opt/schrodinger/mmshare-v20111/lib/Linux-x86/perl5/site_perl:
+XDG_CONFIG_DIRS=/etc/xdg/xdg-gnome:/etc/xdg
+PYTHONHOME=/opt/schrodinger/mmshare-v20111/lib/Linux-x86
+SCHRODINGER_MAESTRO_HELP=/opt/schrodinger/docs/maestro/help/mae92_help
+GMXLIB=/usr/local/gromacs/share/gromacs/top/
+SCHRODINGER_HELP_BROWSER=/home/Ubuntu/tk/bin/firefox
+COLORTERM=gnome-terminal
+ORIG_HOST_ARGS=
+HOME=/home/Ubuntu/tk
+LD_LIBRARY_PATH=/opt/schrodinger/maestro-v92112/lib/Linux-x86:/opt/schrodinger/mmshare-v20111/lib/Linux-x86:/opt/schrodinger/mmshare-v20111/lib/Linux-x86/lib/python2.7/site-packages:/usr/local/lib:/home/Ubuntu/tk/bin/modeller9v7/lib/i386-intel8:
+LANG=C
+MAESTRO_HELP_BROWSER=/home/Ubuntu/tk/bin/firefox
+ISO1=/home/Ubuntu/tk/Projects/11BHSD/iso1/
+ISO2=/home/Ubuntu/tk/Projects/11BHSD/iso2/
+SCHRODINGER_TEMP_LOCATION=/home/Ubuntu/tk/.schrodinger/tmp/11402
+REMOTE_MAESTRO_EXEC=/opt/schrodinger/maestro-v92112/bin/Linux-x86
+USERNAME=tk
+GTK_IM_MODULE=ibus
+JOBHOST=
+SCHRODINGER_NODELIST=
+SCHRODINGER_HELP_DIR=/opt/schrodinger/docs/maestro/help/mae92_help
+DEFAULTS_PATH=/usr/share/gconf/gnome.default.path
+MAESTRO_EXEC=/opt/schrodinger/maestro-v92112/bin/Linux-x86
+SCHRODINGER_APP_EXEC=MAESTRO_EXEC
+LOCAL_SCHRODINGER=/opt/schrodinger
+SCHRODINGER_QUEUE_ARGS=
+QT_IM_MODULE=ibus
+LOGNAME=tk
+MMSHARE_EXEC=/opt/schrodinger/mmshare-v20111/bin/Linux-x86
+PATH=/opt/schrodinger/mmshare-v20111/bin/Linux-x86:/home/Ubuntu/tk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/Ubuntu/tk/bin:/home/Ubuntu/tk/Programs/ncbi-blast-2.2.22+/bin:/home/Ubuntu/tk/Programs/prosa2003/bin:/home/Ubuntu/tk/Programs/rosetta_bundles/rosetta_source/bin/:/home/Ubuntu/tk/Programs/mgltools_i86Linux2_1.5.4/bin/:/home/Ubuntu/tk/Programs/i86Linux2:/home/Ubuntu/tk/Programs/mgltools_i86Linux2_1.5.4/MGLToolsPckgs/AutoDockTools/Utilities24/:/home/Ubuntu/tk/Programs//autodock_vina_1_1_1_linux_x86/bin/:/home/Ubuntu/tk/Programs/amber11/AmberTools/bin/:/home/Ubuntu/tk/Programs/grads-2.0.a9/bin/:/home/Ubuntu/tk/Programs/jdk1.6.0_25/bin/
+GNOME_KEYRING_CONTROL=/tmp/keyring-YFhdm6
+SSH_AGENT_PID=1556
+HISTCONTROL=ignoreboth
+TERM=xterm
+SCHRODINGER_DOCS=/opt/schrodinger/docs
+AMBERHOME=/home/Ubuntu/tk/Programs/amber11
+LDFLAGS=-L/home/Ubuntu/tk/Programs/fftw/lib
+MMOD_EXEC=/opt/schrodinger/macromodel-v99111/bin/Linux-x86
+SCHRODINGER=/opt/schrodinger
+prodir=/home/Ubuntu/tk/Programs/procheck-3.5/procheck
+SSH_AUTH_SOCK=/tmp/keyring-YFhdm6/ssh
+LC_ALL=C
+BOOST_ROOT=/home/Ubuntu/tk/Programs/boost_1_42_0
+XDG_SESSION_COOKIE=720fa709456d8c46999e2c0e4b024e1b-1330413198.879722-598270958
+VER_ARGS=
+OLDPWD=/home/Ubuntu/tk/Programs/pymol/scripts
+GDM_LANG=en_US.utf8
+SPEECHD_PORT=7561
+PWD=/home/Ubuntu/tk/Projects/BindingPathway/structures

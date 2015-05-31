@@ -1,0 +1,8 @@
+# clustering md trajectories from gromacs using g_cluster
+systems=(WT H274Y N294S)
+for d in ${systems[@]};do
+    cd clustering/$d
+    
+    cd ../../
+done;
+
